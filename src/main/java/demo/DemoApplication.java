@@ -18,6 +18,6 @@ public class DemoApplication {
         projectService = context.getBean(ProjectService.class);
         projectService.testProject();
         specialtyService = context.getBean(SpecialtyService.class);
-        specialtyService.testSpecialty();
+        specialtyService.testSpecialty(); //esta es una prueba de github
     }
 }
